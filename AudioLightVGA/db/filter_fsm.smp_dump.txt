@@ -1,0 +1,25 @@
+
+State Machine - |top|filter_fsm:inst|state
+Name state.filter2 state.filter1 state.filter0 state.filter_select state.config1 state.wait1 state.wait0 state.config0 state.idle 
+state.idle 0 0 0 0 0 0 0 0 0 
+state.config0 0 0 0 0 0 0 0 1 1 
+state.wait0 0 0 0 0 0 0 1 0 1 
+state.wait1 0 0 0 0 0 1 0 0 1 
+state.config1 0 0 0 0 1 0 0 0 1 
+state.filter_select 0 0 0 1 0 0 0 0 1 
+state.filter0 0 0 1 0 0 0 0 0 1 
+state.filter1 0 1 0 0 0 0 0 0 1 
+state.filter2 1 0 0 0 0 0 0 0 1 
+
+State Machine - |top|i2c_codec:inst5|state
+Name state.s_stop2 state.s_stop1 state.s_byte2 state.s_byte1 state.s_ack3 state.s_ack2 state.s_ack1 state.s_addr state.s_start state.s_idle 
+state.s_idle 0 0 0 0 0 0 0 0 0 0 
+state.s_start 0 0 0 0 0 0 0 0 1 1 
+state.s_addr 0 0 0 0 0 0 0 1 0 1 
+state.s_ack1 0 0 0 0 0 0 1 0 0 1 
+state.s_ack2 0 0 0 0 0 1 0 0 0 1 
+state.s_ack3 0 0 0 0 1 0 0 0 0 1 
+state.s_byte1 0 0 0 1 0 0 0 0 0 1 
+state.s_byte2 0 0 1 0 0 0 0 0 0 1 
+state.s_stop1 0 1 0 0 0 0 0 0 0 1 
+state.s_stop2 1 0 0 0 0 0 0 0 0 1 

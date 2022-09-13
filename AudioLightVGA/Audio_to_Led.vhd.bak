@@ -1,0 +1,32 @@
+library ieee;
+library ieee_proposed;
+use ieee.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use ieee_proposed.fixed_float_types.all;
+use ieee_proposed.fixed_pkg.all;
+
+entity Audio_to_Led is
+	port(clk 	  : IN  std_logic;
+		  rst		  : IN  std_logic;
+	
+		  left_in  : IN std_logic_vector(15 downto 0);--ja nein vllt?
+		  right_in : IN std_logic_vector(15 downto 0);
+		  
+		  output   : OUT std_logic_vector(7 downto 0)
+		  );
+end Audio_to_Led;
+
+architecture behavioral of Audio_to_Led is
+signal reg : std_logic_vector(7 downto 0);
+BEGIN
+	PROCESS(clk)
+		-- hier variable einfuegen um sofort update
+		BEGIN
+			IF(rst='0') THEN
+				reg <= (others=>'0');
+			ELSIF(clk'EVENT AND clk='1') THEN
+				reg <= left_in(7 downto 0);
+			END IF;	
+	END PROCESS;
+output <= reg;
+END behavioral;

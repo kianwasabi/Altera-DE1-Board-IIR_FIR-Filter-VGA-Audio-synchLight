@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'stream_codec:inst3|bclk_sig'
+Slack : -13.850
+TNS   : -803.936
+
+Type  : Slow Model Setup 'clk_div:inst1|divided_clk'
+Slack : -2.284
+TNS   : -37.544
+
+Type  : Slow Model Setup 'stream_codec:inst3|mclk_sig'
+Slack : -2.248
+TNS   : -27.292
+
+Type  : Slow Model Setup 'CLK'
+Slack : -2.201
+TNS   : -15.720
+
+Type  : Slow Model Setup 'clk_div_VGA:inst6|divided_clk'
+Slack : -1.918
+TNS   : -24.935
+
+Type  : Slow Model Setup 'USB_CLK'
+Slack : 2.473
+TNS   : 0.000
+
+Type  : Slow Model Hold 'CLK'
+Slack : -2.699
+TNS   : -5.382
+
+Type  : Slow Model Hold 'stream_codec:inst3|mclk_sig'
+Slack : -2.368
+TNS   : -2.368
+
+Type  : Slow Model Hold 'USB_CLK'
+Slack : -2.221
+TNS   : -2.221
+
+Type  : Slow Model Hold 'clk_div:inst1|divided_clk'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow Model Hold 'stream_codec:inst3|bclk_sig'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow Model Hold 'clk_div_VGA:inst6|divided_clk'
+Slack : 0.972
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLK'
+Slack : -1.631
+TNS   : -16.295
+
+Type  : Slow Model Minimum Pulse Width 'USB_CLK'
+Slack : -1.631
+TNS   : -2.853
+
+Type  : Slow Model Minimum Pulse Width 'stream_codec:inst3|bclk_sig'
+Slack : -0.611
+TNS   : -338.494
+
+Type  : Slow Model Minimum Pulse Width 'clk_div:inst1|divided_clk'
+Slack : -0.611
+TNS   : -32.994
+
+Type  : Slow Model Minimum Pulse Width 'clk_div_VGA:inst6|divided_clk'
+Slack : -0.611
+TNS   : -25.662
+
+Type  : Slow Model Minimum Pulse Width 'stream_codec:inst3|mclk_sig'
+Slack : -0.611
+TNS   : -25.662
+
+Type  : Fast Model Setup 'stream_codec:inst3|bclk_sig'
+Slack : -4.450
+TNS   : -164.104
+
+Type  : Fast Model Setup 'clk_div:inst1|divided_clk'
+Slack : -0.344
+TNS   : -3.578
+
+Type  : Fast Model Setup 'CLK'
+Slack : -0.240
+TNS   : -0.737
+
+Type  : Fast Model Setup 'stream_codec:inst3|mclk_sig'
+Slack : -0.223
+TNS   : -0.753
+
+Type  : Fast Model Setup 'clk_div_VGA:inst6|divided_clk'
+Slack : -0.144
+TNS   : -0.478
+
+Type  : Fast Model Setup 'USB_CLK'
+Slack : 1.489
+TNS   : 0.000
+
+Type  : Fast Model Hold 'CLK'
+Slack : -1.727
+TNS   : -3.440
+
+Type  : Fast Model Hold 'stream_codec:inst3|mclk_sig'
+Slack : -1.498
+TNS   : -1.498
+
+Type  : Fast Model Hold 'USB_CLK'
+Slack : -1.109
+TNS   : -1.109
+
+Type  : Fast Model Hold 'stream_codec:inst3|bclk_sig'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast Model Hold 'clk_div:inst1|divided_clk'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'clk_div_VGA:inst6|divided_clk'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLK'
+Slack : -1.380
+TNS   : -13.380
+
+Type  : Fast Model Minimum Pulse Width 'USB_CLK'
+Slack : -1.380
+TNS   : -2.380
+
+Type  : Fast Model Minimum Pulse Width 'stream_codec:inst3|bclk_sig'
+Slack : -0.500
+TNS   : -277.000
+
+Type  : Fast Model Minimum Pulse Width 'clk_div:inst1|divided_clk'
+Slack : -0.500
+TNS   : -27.000
+
+Type  : Fast Model Minimum Pulse Width 'clk_div_VGA:inst6|divided_clk'
+Slack : -0.500
+TNS   : -21.000
+
+Type  : Fast Model Minimum Pulse Width 'stream_codec:inst3|mclk_sig'
+Slack : -0.500
+TNS   : -21.000
+
+------------------------------------------------------------
